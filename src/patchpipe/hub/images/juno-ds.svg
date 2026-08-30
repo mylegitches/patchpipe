@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Roland JUNO-DS">
+  <defs>
+    <linearGradient id="junoBody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a3430"/>
+      <stop offset="100%" stop-color="#121816"/>
+    </linearGradient>
+    <linearGradient id="junoAccent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8f07a"/>
+      <stop offset="100%" stop-color="#9ccb35"/>
+    </linearGradient>
+  </defs>
+  <rect x="20" y="36" width="280" height="128" rx="14" fill="url(#junoBody)" stroke="#3a4a42" stroke-width="2"/>
+  <rect x="34" y="52" width="252" height="42" rx="6" fill="#0a0f0d" stroke="#2f3b35"/>
+  <text x="160" y="80" text-anchor="middle" fill="#c9f45a" font-family="ui-monospace, monospace" font-size="18" font-weight="700">JUNO-DS</text>
+  <g fill="#1a221f" stroke="#3d4d45" stroke-width="1.2">
+    <rect x="42" y="108" width="34" height="34" rx="4"/>
+    <rect x="84" y="108" width="34" height="34" rx="4"/>
+    <rect x="126" y="108" width="34" height="34" rx="4"/>
+    <rect x="168" y="108" width="34" height="34" rx="4"/>
+    <rect x="210" y="108" width="34" height="34" rx="4"/>
+    <rect x="252" y="108" width="34" height="34" rx="4"/>
+  </g>
+  <circle cx="60" cy="125" r="10" fill="url(#junoAccent)" opacity=".9"/>
+  <circle cx="102" cy="125" r="10" fill="#44554d"/>
+  <circle cx="144" cy="125" r="10" fill="#44554d"/>
+  <circle cx="186" cy="125" r="10" fill="#44554d"/>
+  <circle cx="228" cy="125" r="10" fill="#44554d"/>
+  <circle cx="270" cy="125" r="10" fill="#44554d"/>
+  <rect x="48" y="150" width="224" height="6" rx="3" fill="#2d3833"/>
+  <rect x="70" y="148" width="36" height="10" rx="2" fill="#c9f45a" opacity=".75"/>
+</svg>

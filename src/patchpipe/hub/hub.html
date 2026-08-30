@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Patchpipe</title>
+  <link rel="stylesheet" href="/hub/hub.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <div class="brand-mark">PP</div>
+    <div>
+      <p class="eyebrow">AI PATCH MAKER</p>
+      <h1>Patchpipe</h1>
+    </div>
+    <div class="status"><i></i><span>Choose a device</span></div>
+  </header>
+
+  <main class="hub">
+    <section class="hub-intro">
+      <p class="eyebrow">SELECT YOUR HARDWARE</p>
+      <h2>Where are we patching today?</h2>
+      <p>Each device opens its own sound-design workspace with mad-libs prompts, local patch library, and OpenAI-compatible model settings.</p>
+    </section>
+
+    <section class="device-grid">
+      <a class="device-card" href="/juno-ds/" id="device-juno-ds">
+        <div class="device-image-wrap">
+          <img src="/hub/images/juno-ds.svg" alt="Roland JUNO-DS synthesizer" class="device-image">
+        </div>
+        <div class="device-copy">
+          <p class="eyebrow">SYNTH PATCHES</p>
+          <h3>Roland JUNO-DS</h3>
+          <p>Describe keyboard sounds in musical language. Refine patches, save to your local library, and send to the temporary edit buffer over MIDI.</p>
+          <span class="device-cta">Open workspace →</span>
+        </div>
+      </a>
+
+      <a class="device-card" href="/pod-hd/" id="device-pod-hd">
+        <div class="device-image-wrap">
+          <img src="/hub/images/pod-hd.svg" alt="Line 6 POD HD guitar processor" class="device-image">
+        </div>
+        <div class="device-copy">
+          <p class="eyebrow">GUITAR &amp; BASS TONES</p>
+          <h3>Line 6 POD HD</h3>
+          <p>Roll the dice on 1,000+ amp and production phrases, generate validated .hbe patches, and build a local tone library.</p>
+          <span class="device-cta">Open workspace →</span>
+        </div>
+      </a>
+    </section>
+  </main>
+</body>
+</html>

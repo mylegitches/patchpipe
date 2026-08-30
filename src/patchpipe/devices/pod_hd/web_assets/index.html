@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Patchpipe · POD HD</title>
+  <link rel="stylesheet" href="/pod-hd/app.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="home-link" href="/" title="Back to Patchpipe devices">← Devices</a>
+    <div class="brand-mark">⚀</div>
+    <div>
+      <p class="eyebrow">AI TONE DESIGNER</p>
+      <h1>Patchpipe <span>POD HD</span></h1>
+    </div>
+    <div class="status" id="app-status"><i></i><span>Ready</span></div>
+  </header>
+
+  <main class="shell">
+    <aside class="sidebar">
+      <section class="panel source-panel">
+        <div class="section-heading"><span>01</span><h2>Starting template</h2></div>
+        <label>Base patch template<select id="template"><option value="">Loading…</option></select></label>
+        <small class="field-help">Every generated patch starts from a real working .hbe template, then the AI rewrites amp, cab, mic, and FX slots.</small>
+        <div class="loaded-patch" id="loaded-template">
+          <div><small>ACTIVE TEMPLATE</small><strong id="loaded-template-name">—</strong></div>
+          <span id="loaded-template-hint">bundled patch</span>
+        </div>
+      </section>
+
+      <section class="panel settings-panel">
+        <div class="section-heading"><span>02</span><h2>Model connection</h2></div>
+        <label>API endpoint<input id="base-url" placeholder="https://api.openai.com/v1"></label>
+        <label>Model<input id="model" placeholder="gpt-4o-mini"></label>
+        <label>API key <em>local .env</em><input id="api-key" type="password" autocomplete="off" placeholder="Paste your API key here"></label>
+        <label>Output directory<input id="output-dir" placeholder="C:\path\to\output"></label>
+        <small class="field-help" id="key-help">Paste a key, then save it to the local Git-ignored .env file. Saved keys are never sent back to the browser.</small>
+        <button class="button ghost full" id="save-configuration">Save settings locally</button>
+        <button class="button test-button full" id="test-connection"><span>Test connection</span><b>◎</b></button>
+        <div class="save-result" id="save-result"></div>
+        <div class="connection-result" id="connection-result"><i></i><span>Connection not tested</span></div>
+      </section>
+
+      <section class="panel vocab-panel">
+        <div class="section-heading"><span>03</span><h2>Prompt vocabulary</h2></div>
+        <p class="field-help" style="margin-top:0">Mad-libs randomizer draws from <strong id="vocab-count">1000+</strong> guitar, amp, and production phrases.</p>
+      </section>
+    </aside>
+
+    <section class="workspace">
+      <section class="hero-card">
+        <div class="hero-copy">
+          <p class="eyebrow">DESCRIBE THE DESTINATION</p>
+          <h2>What should this patch sound like?</h2>
+          <p>Use musical language. Patchpipe translates your intent into a validated POD HD amp/cab/mic and FX chain, then writes a real .hbe file.</p>
+        </div>
+        <div class="prompt-wrap">
+          <textarea id="request" maxlength="4000" placeholder="A tight, mid-forward desert rock rhythm tone with amp gain, a noise gate, and a short slapback delay…"></textarea>
+          <div class="prompt-footer">
+            <div class="suggestions">
+              <button class="randomize" id="randomize-prompt" title="Roll the dice — randomize prompt">⚀ Roll prompt</button>
+              <button data-prompt="Tighten the low end and add a noise gate">Tighter</button>
+              <button data-prompt="Scoop the mids slightly and add more gain">More gain</button>
+              <button data-prompt="Make it darker with longer reverb tail">Darker</button>
+            </div>
+            <button class="button primary" id="generate-button"><span>Generate patch</span><b>→</b></button>
+          </div>
+          <div class="generation-error hidden" id="generation-error"><strong>Generation failed</strong><span></span></div>
+        </div>
+      </section>
+
+      <section class="result-card hidden" id="result-card">
+        <div class="result-header">
+          <div>
+            <p class="eyebrow">CURRENT RESULT</p>
+            <h2 id="patch-name">—</h2>
+            <p id="explanation">Patch generated and saved.</p>
+            <small class="current-version" id="current-version">Unsaved working patch</small>
+          </div>
+          <div class="result-actions">
+            <button class="button ghost" id="reveal-path-button">Show file path</button>
+          </div>
+        </div>
+        <div class="common-strip" id="common-parameters"></div>
+        <div class="tone-grid" id="tone-grid"></div>
+      </section>
+
+      <section class="history-card">
+        <div class="history-header">
+          <div><p class="eyebrow">LOCAL PATCH LIBRARY</p><h2>Previous generations</h2></div>
+          <div><span id="history-count">0 patches</span><button class="icon-button" id="refresh-history" title="Refresh patch history">↻</button></div>
+        </div>
+        <div class="history-list" id="history-list">
+          <div class="history-empty">Generated patches will be saved here automatically.</div>
+        </div>
+      </section>
+
+      <section class="empty-state" id="empty-state">
+        <div class="rings"><i></i><i></i><i></i><span>⚀</span></div>
+        <h3>Your patch will appear here</h3>
+        <p>Describe a tone, roll the dice for inspiration, or pick a quick suggestion — then generate a .hbe file.</p>
+      </section>
+    </section>
+  </main>
+
+  <div class="toast" id="toast"></div>
+  <script>
+    window.PATCHPIPE = { apiPrefix: "/api/pod-hd", home: "/" };
+  </script>
+  <script src="/pod-hd/app.js"></script>
+</body>
+</html>

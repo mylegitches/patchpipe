@@ -1,0 +1,1262 @@
+{
+  "0:000b": {
+    "type_byte": 0,
+    "type_name": "Dyn",
+    "idfield": "000b",
+    "model_name": "Red Comp",
+    "fx_type_label": "Dyn",
+    "match_count": 10,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 10
+  },
+  "0:000d": {
+    "type_byte": 0,
+    "type_name": "Dyn",
+    "idfield": "000d",
+    "model_name": "Blue Comp Treb",
+    "fx_type_label": "Dyn",
+    "match_count": 1,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 1
+  },
+  "0:000e": {
+    "type_byte": 0,
+    "type_name": "Dyn",
+    "idfield": "000e",
+    "model_name": "Tube Comp",
+    "fx_type_label": "Dyn",
+    "match_count": 52,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 52
+  },
+  "0:000f": {
+    "type_byte": 0,
+    "type_name": "Dyn",
+    "idfield": "000f",
+    "model_name": "Vetta Comp",
+    "fx_type_label": "Dyn",
+    "match_count": 3,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 3
+  },
+  "0:0010": {
+    "type_byte": 0,
+    "type_name": "Dyn",
+    "idfield": "0010",
+    "model_name": "Vetta Juice",
+    "fx_type_label": "Dyn",
+    "match_count": 2,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 2
+  },
+  "0:0011": {
+    "type_byte": 0,
+    "type_name": "Dyn",
+    "idfield": "0011",
+    "model_name": "Noise Gate",
+    "fx_type_label": "Dyn",
+    "match_count": 34,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 34
+  },
+  "0:0012": {
+    "type_byte": 0,
+    "type_name": "Dyn",
+    "idfield": "0012",
+    "model_name": "Boost Comp",
+    "fx_type_label": "Dyn",
+    "match_count": 10,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 10
+  },
+  "2:0011": {
+    "type_byte": 2,
+    "type_name": "Delay",
+    "idfield": "0011",
+    "model_name": "Digital Delay",
+    "fx_type_label": "Delay",
+    "match_count": 33,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 33
+  },
+  "2:0012": {
+    "type_byte": 2,
+    "type_name": "Delay",
+    "idfield": "0012",
+    "model_name": "Digital Dly w/Mod",
+    "fx_type_label": "Delay",
+    "match_count": 10,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 10
+  },
+  "2:0013": {
+    "type_byte": 2,
+    "type_name": "Delay",
+    "idfield": "0013",
+    "model_name": "Stereo Delay",
+    "fx_type_label": "Delay",
+    "match_count": 18,
+    "runner_up": [
+      [
+        "Filter",
+        "Voice Box"
+      ],
+      1
+    ],
+    "total_seen": 19
+  },
+  "2:0014": {
+    "type_byte": 2,
+    "type_name": "Delay",
+    "idfield": "0014",
+    "model_name": "Analog Echo",
+    "fx_type_label": "Delay",
+    "match_count": 2,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 2
+  },
+  "2:0015": {
+    "type_byte": 2,
+    "type_name": "Delay",
+    "idfield": "0015",
+    "model_name": "Analog Dly w/Mod",
+    "fx_type_label": "Delay",
+    "match_count": 1,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 1
+  },
+  "2:001d": {
+    "type_byte": 2,
+    "type_name": "Delay",
+    "idfield": "001d",
+    "model_name": "Lo Res Delay",
+    "fx_type_label": "Delay",
+    "match_count": 6,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 6
+  },
+  "2:0020": {
+    "type_byte": 2,
+    "type_name": "Delay",
+    "idfield": "0020",
+    "model_name": "Ping Pong",
+    "fx_type_label": "Delay",
+    "match_count": 11,
+    "runner_up": [
+      [
+        "Wah",
+        "Fassel"
+      ],
+      1
+    ],
+    "total_seen": 12
+  },
+  "2:0021": {
+    "type_byte": 2,
+    "type_name": "Delay",
+    "idfield": "0021",
+    "model_name": "Reverse Delay",
+    "fx_type_label": "Delay",
+    "match_count": 1,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 1
+  },
+  "2:0022": {
+    "type_byte": 2,
+    "type_name": "Delay",
+    "idfield": "0022",
+    "model_name": "Dynamic Delay",
+    "fx_type_label": "Delay",
+    "match_count": 2,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 2
+  },
+  "2:0023": {
+    "type_byte": 2,
+    "type_name": "Delay",
+    "idfield": "0023",
+    "model_name": "Auto-Volume",
+    "fx_type_label": "Delay",
+    "match_count": 5,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 5
+  },
+  "2:002a": {
+    "type_byte": 2,
+    "type_name": "Delay",
+    "idfield": "002a",
+    "model_name": "Tube Echo",
+    "fx_type_label": "Delay",
+    "match_count": 4,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 4
+  },
+  "2:002c": {
+    "type_byte": 2,
+    "type_name": "Delay",
+    "idfield": "002c",
+    "model_name": "Tape Echo",
+    "fx_type_label": "Delay",
+    "match_count": 3,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 3
+  },
+  "2:002d": {
+    "type_byte": 2,
+    "type_name": "Delay",
+    "idfield": "002d",
+    "model_name": "Tape Echo Dry",
+    "fx_type_label": "Delay",
+    "match_count": 2,
+    "runner_up": [
+      [
+        "Pitch",
+        "Pitch Glide"
+      ],
+      1
+    ],
+    "total_seen": 4
+  },
+  "2:002e": {
+    "type_byte": 2,
+    "type_name": "Delay",
+    "idfield": "002e",
+    "model_name": "Sweep Echo",
+    "fx_type_label": "Delay",
+    "match_count": 2,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 2
+  },
+  "2:002f": {
+    "type_byte": 2,
+    "type_name": "Delay",
+    "idfield": "002f",
+    "model_name": "Sweep Echo Dry",
+    "fx_type_label": "Delay",
+    "match_count": 1,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 1
+  },
+  "2:0031": {
+    "type_byte": 2,
+    "type_name": "Delay",
+    "idfield": "0031",
+    "model_name": "Echo Platter Dry",
+    "fx_type_label": "Delay",
+    "match_count": 3,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 3
+  },
+  "3:0020": {
+    "type_byte": 3,
+    "type_name": "Mod",
+    "idfield": "0020",
+    "model_name": "Opto Tremolo",
+    "fx_type_label": "Mod",
+    "match_count": 9,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 9
+  },
+  "3:0021": {
+    "type_byte": 3,
+    "type_name": "Mod",
+    "idfield": "0021",
+    "model_name": "Bias Tremolo",
+    "fx_type_label": "Mod",
+    "match_count": 1,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 1
+  },
+  "3:0022": {
+    "type_byte": 3,
+    "type_name": "Mod",
+    "idfield": "0022",
+    "model_name": "Phaser",
+    "fx_type_label": "Mod",
+    "match_count": 1,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 1
+  },
+  "3:0025": {
+    "type_byte": 3,
+    "type_name": "Mod",
+    "idfield": "0025",
+    "model_name": "U-Vibe",
+    "fx_type_label": "Mod",
+    "match_count": 2,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 2
+  },
+  "3:0026": {
+    "type_byte": 3,
+    "type_name": "Mod",
+    "idfield": "0026",
+    "model_name": "Rotary Drum",
+    "fx_type_label": "Mod",
+    "match_count": 1,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 1
+  },
+  "3:0028": {
+    "type_byte": 3,
+    "type_name": "Mod",
+    "idfield": "0028",
+    "model_name": "Analog Flanger",
+    "fx_type_label": "Mod",
+    "match_count": 9,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 9
+  },
+  "3:002a": {
+    "type_byte": 3,
+    "type_name": "Mod",
+    "idfield": "002a",
+    "model_name": "Analog Chorus",
+    "fx_type_label": "Mod",
+    "match_count": 7,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 7
+  },
+  "3:002b": {
+    "type_byte": 3,
+    "type_name": "Mod",
+    "idfield": "002b",
+    "model_name": "Dimension",
+    "fx_type_label": "Mod",
+    "match_count": 6,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 6
+  },
+  "3:002c": {
+    "type_byte": 3,
+    "type_name": "Mod",
+    "idfield": "002c",
+    "model_name": "Tri Chorus",
+    "fx_type_label": "Mod",
+    "match_count": 2,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 2
+  },
+  "3:002d": {
+    "type_byte": 3,
+    "type_name": "Mod",
+    "idfield": "002d",
+    "model_name": "Pitch Vibrato",
+    "fx_type_label": "Mod",
+    "match_count": 11,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 11
+  },
+  "3:002e": {
+    "type_byte": 3,
+    "type_name": "Mod",
+    "idfield": "002e",
+    "model_name": "Ring Modulator",
+    "fx_type_label": "Mod",
+    "match_count": 1,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 1
+  },
+  "3:002f": {
+    "type_byte": 3,
+    "type_name": "Mod",
+    "idfield": "002f",
+    "model_name": "Panner",
+    "fx_type_label": "Mod",
+    "match_count": 7,
+    "runner_up": [
+      [
+        "Filter",
+        "Q Filter"
+      ],
+      1
+    ],
+    "total_seen": 8
+  },
+  "3:0040": {
+    "type_byte": 3,
+    "type_name": "Mod",
+    "idfield": "0040",
+    "model_name": "Barberpole Phaser",
+    "fx_type_label": "Mod",
+    "match_count": 10,
+    "runner_up": [
+      [
+        "Delay",
+        "Stereo Delay"
+      ],
+      1
+    ],
+    "total_seen": 11
+  },
+  "3:0043": {
+    "type_byte": 3,
+    "type_name": "Mod",
+    "idfield": "0043",
+    "model_name": "Pattern Tremolo",
+    "fx_type_label": "Mod",
+    "match_count": 3,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 3
+  },
+  "3:0045": {
+    "type_byte": 3,
+    "type_name": "Mod",
+    "idfield": "0045",
+    "model_name": "Script Phase",
+    "fx_type_label": "Mod",
+    "match_count": 2,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 2
+  },
+  "3:0047": {
+    "type_byte": 3,
+    "type_name": "Mod",
+    "idfield": "0047",
+    "model_name": "AC Flanger",
+    "fx_type_label": "Mod",
+    "match_count": 2,
+    "runner_up": [
+      [
+        "Wah",
+        "Weeper"
+      ],
+      1
+    ],
+    "total_seen": 3
+  },
+  "4:001c": {
+    "type_byte": 4,
+    "type_name": "Reverb",
+    "idfield": "001c",
+    "model_name": "'63 Spring",
+    "fx_type_label": "Reverb",
+    "match_count": 10,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 10
+  },
+  "4:001d": {
+    "type_byte": 4,
+    "type_name": "Reverb",
+    "idfield": "001d",
+    "model_name": "Spring",
+    "fx_type_label": "Reverb",
+    "match_count": 4,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 4
+  },
+  "4:001e": {
+    "type_byte": 4,
+    "type_name": "Reverb",
+    "idfield": "001e",
+    "model_name": "Plate",
+    "fx_type_label": "Reverb",
+    "match_count": 38,
+    "runner_up": [
+      [
+        "Pitch",
+        "Smart Harmony"
+      ],
+      3
+    ],
+    "total_seen": 41
+  },
+  "4:001f": {
+    "type_byte": 4,
+    "type_name": "Reverb",
+    "idfield": "001f",
+    "model_name": "Room",
+    "fx_type_label": "Reverb",
+    "match_count": 7,
+    "runner_up": [
+      [
+        "Pitch",
+        "Pitch Glide"
+      ],
+      1
+    ],
+    "total_seen": 8
+  },
+  "4:0020": {
+    "type_byte": 4,
+    "type_name": "Reverb",
+    "idfield": "0020",
+    "model_name": "Chamber",
+    "fx_type_label": "Reverb",
+    "match_count": 3,
+    "runner_up": [
+      [
+        "Reverb",
+        "Room"
+      ],
+      1
+    ],
+    "total_seen": 4
+  },
+  "4:0021": {
+    "type_byte": 4,
+    "type_name": "Reverb",
+    "idfield": "0021",
+    "model_name": "Hall",
+    "fx_type_label": "Reverb",
+    "match_count": 3,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 3
+  },
+  "4:0022": {
+    "type_byte": 4,
+    "type_name": "Reverb",
+    "idfield": "0022",
+    "model_name": "Ducking",
+    "fx_type_label": "Reverb",
+    "match_count": 1,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 1
+  },
+  "4:0023": {
+    "type_byte": 4,
+    "type_name": "Reverb",
+    "idfield": "0023",
+    "model_name": "Octo",
+    "fx_type_label": "Reverb",
+    "match_count": 7,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 7
+  },
+  "4:0024": {
+    "type_byte": 4,
+    "type_name": "Reverb",
+    "idfield": "0024",
+    "model_name": "Cave",
+    "fx_type_label": "Reverb",
+    "match_count": 3,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 3
+  },
+  "4:0025": {
+    "type_byte": 4,
+    "type_name": "Reverb",
+    "idfield": "0025",
+    "model_name": "Tile",
+    "fx_type_label": "Reverb",
+    "match_count": 2,
+    "runner_up": [
+      [
+        "Delay",
+        "Tape Echo Dry"
+      ],
+      1
+    ],
+    "total_seen": 3
+  },
+  "4:0026": {
+    "type_byte": 4,
+    "type_name": "Reverb",
+    "idfield": "0026",
+    "model_name": "Echo",
+    "fx_type_label": "Reverb",
+    "match_count": 2,
+    "runner_up": [
+      [
+        "Mod",
+        "Analog Chorus"
+      ],
+      1
+    ],
+    "total_seen": 3
+  },
+  "4:0027": {
+    "type_byte": 4,
+    "type_name": "Reverb",
+    "idfield": "0027",
+    "model_name": "Particle Verb",
+    "fx_type_label": "Reverb",
+    "match_count": 3,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 3
+  },
+  "5:000a": {
+    "type_byte": 5,
+    "type_name": "Dist",
+    "idfield": "000a",
+    "model_name": "Jet Fuzz",
+    "fx_type_label": "Dist",
+    "match_count": 1,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 1
+  },
+  "5:000b": {
+    "type_byte": 5,
+    "type_name": "Dist",
+    "idfield": "000b",
+    "model_name": "Classic Distortion",
+    "fx_type_label": "Dist",
+    "match_count": 8,
+    "runner_up": [
+      [
+        "Delay",
+        "Digital Delay"
+      ],
+      1
+    ],
+    "total_seen": 9
+  },
+  "5:000c": {
+    "type_byte": 5,
+    "type_name": "Dist",
+    "idfield": "000c",
+    "model_name": "Octave Fuzz",
+    "fx_type_label": "Dist",
+    "match_count": 9,
+    "runner_up": [
+      [
+        "Mod",
+        "Pitch Vibrato"
+      ],
+      1
+    ],
+    "total_seen": 10
+  },
+  "5:000d": {
+    "type_byte": 5,
+    "type_name": "Dist",
+    "idfield": "000d",
+    "model_name": "Tube Drive",
+    "fx_type_label": "Dist",
+    "match_count": 10,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 10
+  },
+  "5:000e": {
+    "type_byte": 5,
+    "type_name": "Dist",
+    "idfield": "000e",
+    "model_name": "Screamer",
+    "fx_type_label": "Dist",
+    "match_count": 13,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 13
+  },
+  "5:0010": {
+    "type_byte": 5,
+    "type_name": "Dist",
+    "idfield": "0010",
+    "model_name": "Overdrive",
+    "fx_type_label": "Dist",
+    "match_count": 4,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 4
+  },
+  "5:0011": {
+    "type_byte": 5,
+    "type_name": "Dist",
+    "idfield": "0011",
+    "model_name": "Facial Fuzz",
+    "fx_type_label": "Dist",
+    "match_count": 5,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 5
+  },
+  "5:0013": {
+    "type_byte": 5,
+    "type_name": "Dist",
+    "idfield": "0013",
+    "model_name": "Line 6 Drive",
+    "fx_type_label": "Dist",
+    "match_count": 3,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 3
+  },
+  "5:0014": {
+    "type_byte": 5,
+    "type_name": "Dist",
+    "idfield": "0014",
+    "model_name": "Sub Octave Fuzz",
+    "fx_type_label": "Dist",
+    "match_count": 2,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 2
+  },
+  "5:0016": {
+    "type_byte": 5,
+    "type_name": "Dist",
+    "idfield": "0016",
+    "model_name": "Heavy Distortion",
+    "fx_type_label": "Dist",
+    "match_count": 2,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 2
+  },
+  "5:0018": {
+    "type_byte": 5,
+    "type_name": "Dist",
+    "idfield": "0018",
+    "model_name": "Color Drive",
+    "fx_type_label": "Dist",
+    "match_count": 3,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 3
+  },
+  "6:000b": {
+    "type_byte": 6,
+    "type_name": "Wah",
+    "idfield": "000b",
+    "model_name": "Vetta Wah",
+    "fx_type_label": "Wah",
+    "match_count": 16,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 16
+  },
+  "6:000c": {
+    "type_byte": 6,
+    "type_name": "Wah",
+    "idfield": "000c",
+    "model_name": "Fassel",
+    "fx_type_label": "Wah",
+    "match_count": 20,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 20
+  },
+  "6:000d": {
+    "type_byte": 6,
+    "type_name": "Wah",
+    "idfield": "000d",
+    "model_name": "Weeper",
+    "fx_type_label": "Wah",
+    "match_count": 8,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 8
+  },
+  "6:000e": {
+    "type_byte": 6,
+    "type_name": "Wah",
+    "idfield": "000e",
+    "model_name": "Chrome",
+    "fx_type_label": "Wah",
+    "match_count": 1,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 1
+  },
+  "6:000f": {
+    "type_byte": 6,
+    "type_name": "Wah",
+    "idfield": "000f",
+    "model_name": "Chrome Custom",
+    "fx_type_label": "Wah",
+    "match_count": 8,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 8
+  },
+  "6:0010": {
+    "type_byte": 6,
+    "type_name": "Wah",
+    "idfield": "0010",
+    "model_name": "Throaty",
+    "fx_type_label": "Wah",
+    "match_count": 6,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 6
+  },
+  "6:0011": {
+    "type_byte": 6,
+    "type_name": "Wah",
+    "idfield": "0011",
+    "model_name": "Conductor",
+    "fx_type_label": "Wah",
+    "match_count": 1,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 1
+  },
+  "6:0012": {
+    "type_byte": 6,
+    "type_name": "Wah",
+    "idfield": "0012",
+    "model_name": "Colorful",
+    "fx_type_label": "Wah",
+    "match_count": 3,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 3
+  },
+  "7:0004": {
+    "type_byte": 7,
+    "type_name": "VolPan",
+    "idfield": "0004",
+    "model_name": "Volume Pedal",
+    "fx_type_label": "VolPan",
+    "match_count": 79,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 79
+  },
+  "7:0005": {
+    "type_byte": 7,
+    "type_name": "VolPan",
+    "idfield": "0005",
+    "model_name": "Pan",
+    "fx_type_label": "VolPan",
+    "match_count": 6,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 6
+  },
+  "9:0002": {
+    "type_byte": 9,
+    "type_name": "Pitch",
+    "idfield": "0002",
+    "model_name": "Pitch Glide",
+    "fx_type_label": "Pitch",
+    "match_count": 17,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 17
+  },
+  "9:0003": {
+    "type_byte": 9,
+    "type_name": "Pitch",
+    "idfield": "0003",
+    "model_name": "Smart Harmony",
+    "fx_type_label": "Pitch",
+    "match_count": 14,
+    "runner_up": [
+      [
+        "Dyn",
+        "Tube Comp"
+      ],
+      1
+    ],
+    "total_seen": 18
+  },
+  "9:0004": {
+    "type_byte": 9,
+    "type_name": "Pitch",
+    "idfield": "0004",
+    "model_name": "Bass Octaver",
+    "fx_type_label": "Pitch",
+    "match_count": 8,
+    "runner_up": [
+      [
+        "Dist",
+        "Tube Drive"
+      ],
+      1
+    ],
+    "total_seen": 9
+  },
+  "10:000f": {
+    "type_byte": 10,
+    "type_name": "Filter",
+    "idfield": "000f",
+    "model_name": "Tron Up",
+    "fx_type_label": "Filter",
+    "match_count": 4,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 4
+  },
+  "10:0011": {
+    "type_byte": 10,
+    "type_name": "Filter",
+    "idfield": "0011",
+    "model_name": "Seeker",
+    "fx_type_label": "Filter",
+    "match_count": 3,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 3
+  },
+  "10:0012": {
+    "type_byte": 10,
+    "type_name": "Filter",
+    "idfield": "0012",
+    "model_name": "Obi Wah",
+    "fx_type_label": "Filter",
+    "match_count": 2,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 2
+  },
+  "10:0013": {
+    "type_byte": 10,
+    "type_name": "Filter",
+    "idfield": "0013",
+    "model_name": "Slow Filter",
+    "fx_type_label": "Filter",
+    "match_count": 3,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 3
+  },
+  "10:0014": {
+    "type_byte": 10,
+    "type_name": "Filter",
+    "idfield": "0014",
+    "model_name": "Q Filter",
+    "fx_type_label": "Filter",
+    "match_count": 4,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 4
+  },
+  "10:0015": {
+    "type_byte": 10,
+    "type_name": "Filter",
+    "idfield": "0015",
+    "model_name": "Throbber",
+    "fx_type_label": "Filter",
+    "match_count": 2,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 2
+  },
+  "10:0016": {
+    "type_byte": 10,
+    "type_name": "Filter",
+    "idfield": "0016",
+    "model_name": "Spin Cycle",
+    "fx_type_label": "Filter",
+    "match_count": 2,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 2
+  },
+  "10:0018": {
+    "type_byte": 10,
+    "type_name": "Filter",
+    "idfield": "0018",
+    "model_name": "Octisynth",
+    "fx_type_label": "Filter",
+    "match_count": 1,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 1
+  },
+  "10:001a": {
+    "type_byte": 10,
+    "type_name": "Filter",
+    "idfield": "001a",
+    "model_name": "Synth-O-Matic",
+    "fx_type_label": "Filter",
+    "match_count": 3,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 3
+  },
+  "10:001b": {
+    "type_byte": 10,
+    "type_name": "Filter",
+    "idfield": "001b",
+    "model_name": "Attack Synth",
+    "fx_type_label": "Filter",
+    "match_count": 2,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 2
+  },
+  "10:001c": {
+    "type_byte": 10,
+    "type_name": "Filter",
+    "idfield": "001c",
+    "model_name": "Synth String",
+    "fx_type_label": "Filter",
+    "match_count": 5,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 5
+  },
+  "10:001d": {
+    "type_byte": 10,
+    "type_name": "Filter",
+    "idfield": "001d",
+    "model_name": "Voice Box",
+    "fx_type_label": "Filter",
+    "match_count": 5,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 5
+  },
+  "10:001e": {
+    "type_byte": 10,
+    "type_name": "Filter",
+    "idfield": "001e",
+    "model_name": "V-Tron",
+    "fx_type_label": "Filter",
+    "match_count": 1,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 1
+  },
+  "12:0009": {
+    "type_byte": 12,
+    "type_name": "EQ",
+    "idfield": "0009",
+    "model_name": "Graphic EQ",
+    "fx_type_label": "Pre+EQ",
+    "match_count": 12,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 12
+  },
+  "12:000a": {
+    "type_byte": 12,
+    "type_name": "EQ",
+    "idfield": "000a",
+    "model_name": "Studio EQ",
+    "fx_type_label": "Pre+EQ",
+    "match_count": 15,
+    "runner_up": [
+      [
+        "Dyn",
+        "Tube Comp"
+      ],
+      1
+    ],
+    "total_seen": 18
+  },
+  "12:000b": {
+    "type_byte": 12,
+    "type_name": "EQ",
+    "idfield": "000b",
+    "model_name": "Parametric EQ",
+    "fx_type_label": "Pre+EQ",
+    "match_count": 1,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 1
+  },
+  "12:000c": {
+    "type_byte": 12,
+    "type_name": "EQ",
+    "idfield": "000c",
+    "model_name": "4 Band Shift EQ",
+    "fx_type_label": "Pre+EQ",
+    "match_count": 2,
+    "runner_up": [
+      null,
+      0
+    ],
+    "total_seen": 2
+  },
+  "12:000d": {
+    "type_byte": 12,
+    "type_name": "EQ",
+    "idfield": "000d",
+    "model_name": "Mid Focus EQ",
+    "fx_type_label": "Pre+EQ",
+    "match_count": 22,
+    "runner_up": [
+      [
+        "Reverb",
+        "Plate"
+      ],
+      1
+    ],
+    "total_seen": 23
+  }
+}

@@ -1,0 +1,435 @@
+{
+  "patch_size_bytes": 4136,
+  "amp": {
+    "byte_offset": 83,
+    "on_off_offset": 88,
+    "cab_byte_offset": 595,
+    "cab_on_off_offset": 603,
+    "mic_byte_offset": 4128,
+    "amp2_offset_delta": 256,
+    "amp2_mic_offset": 4129,
+    "models": {
+      "0": "PhD Motorway",
+      "1": "Tweed B-Man Nrm",
+      "2": "Tweed B-Man Brt",
+      "3": "Blackface 'Lux Nrm",
+      "4": "Blackface 'Lux Vib",
+      "5": "Blackface Dbl Nrm",
+      "6": "Blackface Dbl Vib",
+      "8": "Highway 100",
+      "9": "Brit J-45 Nrm",
+      "10": "Brit J-45 Brt",
+      "11": "Treadplate",
+      "12": "Brit P-75 Nrm",
+      "13": "Brit P-75 Brt",
+      "14": "Super O",
+      "16": "Class A-15",
+      "17": "Class A-30 TB",
+      "18": "Divide 9/15",
+      "20": "Gibtone 185",
+      "21": "Brit J-800",
+      "23": "Bomber Uber",
+      "25": "Angel F-Ball",
+      "27": "PhD Motorway Pre",
+      "28": "Tweed B-Man Nrm Pre",
+      "29": "Tweed B-Man Brt Pre",
+      "30": "Blackface 'Lux Nrm Pre",
+      "31": "Blackface 'Lux Vib Pre",
+      "32": "Blackface Dbl Nrm Pre",
+      "33": "Blackface Dbl Vib Pre",
+      "35": "Highway 100 Pre",
+      "36": "Brit J-45 Nrm Pre",
+      "37": "Brit J-45 Brt Pre",
+      "38": "Treadplate Pre",
+      "39": "Brit P-75 Nrm Pre",
+      "40": "Brit P-75 Brt Pre",
+      "41": "Super O Pre",
+      "43": "Class A-15 Pre",
+      "44": "Class A-30 TB Pre",
+      "45": "Divide 9/15 Pre",
+      "47": "Gibtone 185 Pre",
+      "48": "Brit J-800 Pre",
+      "50": "Bomber Uber Pre",
+      "52": "Angel F-Ball Pre",
+      "82": "Line 6 Elektrik",
+      "85": "Plexi Lead 100 Nrm",
+      "86": "Plexi Lead 100 Nrm Pre",
+      "88": "Plexi Lead 100 Brt",
+      "89": "Plexi Lead 100 Brt Pre",
+      "91": "Flip Top",
+      "92": "Flip Top Pre",
+      "94": "Solo 100 Clean",
+      "95": "Solo 100 Clean Pre",
+      "97": "Solo 100 Crunch",
+      "98": "Solo 100 Crunch Pre",
+      "100": "Solo 100 Overdrive",
+      "101": "Solo 100 Overdrive Pre",
+      "103": "Line 6 Doom",
+      "104": "Line 6 Doom Pre",
+      "106": "Line 6 Epic",
+      "107": "Line 6 Epic Pre"
+    },
+    "params_float_offsets": {
+      "Drive": [
+        100,
+        101,
+        102,
+        103
+      ],
+      "Bass": [
+        120,
+        121,
+        122,
+        123
+      ],
+      "Mid": [
+        140,
+        141,
+        142,
+        143
+      ],
+      "Treble": [
+        160,
+        161,
+        162,
+        163
+      ],
+      "Presence": [
+        180,
+        181,
+        182,
+        183
+      ],
+      "ChannelVolume": [
+        200,
+        201,
+        202,
+        203
+      ],
+      "E.R.": [
+        3444,
+        3445,
+        3446,
+        3447
+      ],
+      "BypassVolume": [
+        3492,
+        3493,
+        3494,
+        3495
+      ],
+      "Master": [
+        300,
+        301,
+        302,
+        303
+      ],
+      "Sag": [
+        240,
+        241,
+        242,
+        243
+      ],
+      "Hum": [
+        220,
+        221,
+        222,
+        223
+      ],
+      "Bias": [
+        260,
+        261,
+        262,
+        263
+      ],
+      "BiasX": [
+        280,
+        281,
+        282,
+        283
+      ],
+      "LowCut": [
+        612,
+        613,
+        614,
+        615
+      ],
+      "ResLevel": [
+        632,
+        633,
+        634,
+        635
+      ],
+      "Thump": [
+        652,
+        653,
+        654,
+        655
+      ],
+      "Decay": [
+        672,
+        673,
+        674,
+        675
+      ]
+    },
+    "note": "Amp2 = Amp1 offsets + 0x100. Float encoding: standard IEEE754 big-endian, 0.0=0%, 1.0(0x3F800000)=100%, linear."
+  },
+  "cab": {
+    "models": {
+      "0": "2x12 PhD Ported",
+      "1": "1x(6x9) Super O",
+      "2": "1x12 Celest 12-H",
+      "3": "1x12 Blackface 'Lux",
+      "4": "1x12 Gibtone F-Coil",
+      "5": "1x12 Blue Bell",
+      "6": "2x12 Blackface Dbl",
+      "7": "115 Flip Flop",
+      "8": "2x12 Silver Bell",
+      "9": "4x10 Tweed B-Man",
+      "10": "4x12 Uber",
+      "11": "4x12 XXL V-30",
+      "12": "4x12 Hiway",
+      "13": "No Cab",
+      "14": "4x12 Greenback 25",
+      "15": "4x12 Brit T-75",
+      "16": "4x12 Tread V-30",
+      "17": "4x12 Blackback 30",
+      "18": "4x12 Flip Top"
+    },
+    "note": "0x7 and 0xd inferred from UI catalog order, not independently byte-validated."
+  },
+  "mic": {
+    "byte_offset": 4128,
+    "models": {
+      "0": "57 On Axis",
+      "1": "57 Off Axis",
+      "2": "409 Dynamic",
+      "3": "421 Dynamic",
+      "4": "4038 Ribbon",
+      "5": "121 Ribbon",
+      "6": "67 Condenser",
+      "7": "87 Condenser"
+    }
+  },
+  "fx_blocks": {
+    "block_offsets": [
+      1104,
+      1360,
+      1616,
+      1872,
+      2128,
+      2384,
+      2640,
+      2896
+    ],
+    "type_byte_relative_offset": 1,
+    "model_byte_relative_offset": 3,
+    "on_off_relative_offset": 11,
+    "types": {
+      "0": "Dyn",
+      "2": "Delay",
+      "3": "Mod",
+      "4": "Reverb",
+      "5": "Dist",
+      "6": "Wah",
+      "7": "VolPan",
+      "8": "FXLoop",
+      "9": "Pitch",
+      "10": "Filter",
+      "12": "Pre+EQ"
+    },
+    "models": {
+      "Dyn": {
+        "17": "Noise Gate",
+        "19": "Hard Gate",
+        "14": "Tube Comp",
+        "11": "Red Comp",
+        "12": "Blue Comp",
+        "13": "Blue Comp Treb",
+        "15": "Vetta Comp",
+        "16": "Vetta Juice",
+        "18": "Boost Comp"
+      },
+      "Dist": {
+        "13": "Tube Drive",
+        "14": "Screamer",
+        "16": "Overdrive",
+        "11": "Classic Distortion",
+        "22": "Heavy Distortion",
+        "24": "Color Drive",
+        "21": "Buzz Saw",
+        "17": "Facial Fuzz",
+        "23": "Jumbo Fuzz",
+        "15": "Fuzz Pi",
+        "10": "Jet Fuzz",
+        "19": "Line 6 Drive",
+        "18": "Line 6 Distortion",
+        "20": "Sub Octave Fuzz",
+        "12": "Octave Fuzz"
+      },
+      "Mod": {
+        "67": "Pattern Tremolo",
+        "47": "Panner",
+        "33": "Bias Tremolo",
+        "32": "Opto Tremolo",
+        "69": "Script Phase",
+        "36": "Panned Phaser",
+        "64": "Barberpole Phaser",
+        "35": "Dual Phaser",
+        "37": "U-Vibe",
+        "34": "Phaser",
+        "45": "Pitch Vibrato",
+        "43": "Dimension",
+        "42": "Analog Chorus",
+        "44": "Tri Chorus",
+        "40": "Analog Flanger",
+        "41": "Jet Flanger",
+        "71": "AC Flanger",
+        "73": "80A Flanger",
+        "66": "Frequency Shifter",
+        "46": "Ring Modulator",
+        "38": "Rotary Drum",
+        "39": "Rotary Drum & Horn"
+      },
+      "Filter": {
+        "29": "Voice Box",
+        "30": "V-Tron",
+        "20": "Q Filter",
+        "38": "Vocoder",
+        "17": "Seeker",
+        "18": "Obi Wah",
+        "15": "Tron Up",
+        "16": "Tron Down",
+        "21": "Throbber",
+        "19": "Slow Filter",
+        "22": "Spin Cycle",
+        "23": "Comet Trails",
+        "24": "Octisynth",
+        "26": "Synth-O-Matic",
+        "27": "Attack Synth",
+        "28": "Synth String",
+        "25": "Growler"
+      },
+      "Pitch": {
+        "4": "Bass Octaver",
+        "2": "Pitch Glide",
+        "3": "Smart Harmony"
+      },
+      "Pre+EQ": {
+        "9": "Graphic EQ",
+        "11": "Parametric EQ",
+        "10": "Studio EQ",
+        "12": "4-Band Shift EQ",
+        "13": "Mid Focus EQ",
+        "14": "Vintage Pre"
+      },
+      "Delay": {
+        "32": "Ping Pong",
+        "34": "Dynamic Delay",
+        "19": "Stereo Delay",
+        "17": "Digital Delay",
+        "18": "Digital Delay w/Mod",
+        "33": "Reverse Delay",
+        "29": "Lo Res Delay",
+        "42": "Tube Echo",
+        "43": "Tube Echo Dry",
+        "44": "Tape Echo",
+        "45": "Tape Echo Dry",
+        "46": "Sweep Echo",
+        "47": "Sweep Echo Dry",
+        "48": "Echo Platter",
+        "49": "Echo Platter Dry",
+        "21": "Analog Delay w/Mod",
+        "20": "Analog Echo",
+        "35": "Auto-Volume",
+        "26": "Multi-Head Delay"
+      },
+      "Reverb": {
+        "30": "Plate",
+        "31": "Room",
+        "32": "Chamber",
+        "33": "Hall",
+        "38": "Echo",
+        "37": "Tile",
+        "36": "Cave",
+        "34": "Ducking",
+        "35": "Octo",
+        "29": "Spring",
+        "28": "'63 Spring",
+        "39": "Particle Verb"
+      },
+      "VolPan": {
+        "4": "Volume Pedal",
+        "5": "Pan"
+      },
+      "Wah": {
+        "12": "Fassel",
+        "17": "Conductor",
+        "16": "Throaty",
+        "18": "Colorful",
+        "11": "Vetta Wah",
+        "14": "Chrome",
+        "15": "Chrome Custom",
+        "13": "Weeper"
+      },
+      "FXLoop": {
+        "0": "FXLoop"
+      }
+    },
+    "dist_params_relative": {
+      "Bass": [
+        40,
+        41,
+        42,
+        43
+      ],
+      "Mid": [
+        60,
+        61,
+        62,
+        63
+      ],
+      "Treble": [
+        80,
+        81,
+        82,
+        83
+      ],
+      "Drive": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "Output": [
+        100,
+        101,
+        102,
+        103
+      ]
+    },
+    "note": "dist_params_relative offsets are relative to block start (e.g. block1 base 0x450, so Drive = 0x450+0x14=0x464)."
+  },
+  "mixer": {
+    "path_a_level": [
+      3468,
+      3469
+    ],
+    "path_a_pan": [
+      3461,
+      3462,
+      3463
+    ],
+    "path_b_level": [
+      3472,
+      3473
+    ],
+    "path_b_pan": [
+      3465,
+      3466,
+      3467
+    ]
+  },
+  "source": "Validated against github.com/johanneszab/podhd reverse-engineering docs, cross-checked against empirical statistical decoding from 100+ real patches in user's device bundle."
+}
