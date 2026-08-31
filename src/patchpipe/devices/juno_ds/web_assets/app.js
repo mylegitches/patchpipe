@@ -87,7 +87,13 @@ async function api(path, payload) {
       method: "POST", headers: {"Content-Type": "application/json"}, body: JSON.stringify(payload)
     };
     const response = await fetch(apiUrl(path), options);
-    const data = await response.json();
+    const text = await response.text();
+    let data;
+    try {
+      data = text ? JSON.parse(text) : {};
+    } catch {
+      throw new Error(`Server returned non-JSON (${response.status}): ${text.slice(0, 160)}`);
+    }
     if (!response.ok) throw new Error(data.error || `Request failed (${response.status})`);
     status("Ready");
     return data;

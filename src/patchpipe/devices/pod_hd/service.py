@@ -177,7 +177,10 @@ class GuiService:
             parent_value = data.get("parent_id")
             if parent_value is not None and not isinstance(parent_value, str):
                 raise ValidationError("parent_id must be a string or null")
-            spec, out_path = generate_patch_file(request, template=template, output_dir=output_dir)
+            try:
+                spec, out_path = generate_patch_file(request, template=template, output_dir=output_dir)
+            except Exception as error:
+                raise ValidationError(f"AI generation failed: {error}") from error
             record = self.library.save(
                 request=request,
                 name=spec["patch_name"],

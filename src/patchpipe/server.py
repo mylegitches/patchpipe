@@ -98,9 +98,11 @@ def make_handler(server: PatchpipeServer) -> type[BaseHTTPRequestHandler]:
             if path == "/api/juno-ds/ports":
                 try:
                     self._json(HTTPStatus.OK, server.dispatch_api(path, None))
-                except (JunoError, OSError, RuntimeError, ValueError) as error:
+                except (JunoError, PodError, OSError, RuntimeError, ValueError) as error:
                     self._json(HTTPStatus.BAD_REQUEST, {"error": str(error)})
                 return
+            if path.startswith("/api/"):
+                return self._json(HTTPStatus.NOT_FOUND, {"error": f"unknown API route: {path}"})
             self.send_error(HTTPStatus.NOT_FOUND)
 
         def do_POST(self) -> None:  # noqa: N802
@@ -112,6 +114,8 @@ def make_handler(server: PatchpipeServer) -> type[BaseHTTPRequestHandler]:
                 self._json(HTTPStatus.OK, server.dispatch_api(unquote(self.path.split("?", 1)[0]), payload))
             except (JunoError, PodError, OSError, RuntimeError, ValueError, json.JSONDecodeError) as error:
                 self._json(HTTPStatus.BAD_REQUEST, {"error": str(error)})
+            except Exception as error:
+                self._json(HTTPStatus.INTERNAL_SERVER_ERROR, {"error": str(error)})
 
         def log_message(self, format: str, *args: object) -> None:
             return
