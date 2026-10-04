@@ -14,7 +14,8 @@ More devices can be added to the home screen over time.
 ## Quick start
 
 ```powershell
-cd C:\Users\adamr\patchpipe
+git clone https://github.com/mylegitches/patchpipe.git
+cd patchpipe
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -e .
