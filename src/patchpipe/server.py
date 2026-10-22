@@ -79,6 +79,8 @@ def make_handler(server: PatchpipeServer) -> type[BaseHTTPRequestHandler]:
                 return self._json(HTTPStatus.OK, {"status": "ok"})
             if path in ("/", "/index.html"):
                 return self._send_bytes(HTTPStatus.OK, (HUB_DIR / "hub.html").read_bytes(), "text/html; charset=utf-8")
+            if path == "/favicon.ico":
+                return self._send_bytes(HTTPStatus.OK, (HUB_DIR / "favicon.ico").read_bytes(), "image/x-icon")
             if path.startswith("/hub/"):
                 asset = HUB_DIR / path[len("/hub/") :]
                 if asset.is_file():
