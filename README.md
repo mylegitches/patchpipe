@@ -1,4 +1,4 @@
-# Patchpipe
+# PatchPipe
 
 Unified AI patch maker for multiple devices. Pick your hardware on the home screen, describe a sound in plain language, and get a validated patch saved locally.
 
@@ -35,7 +35,7 @@ python -m patchpipe.cli --lan
 python -m patchpipe.cli
 ```
 
-Patchpipe opens `http://127.0.0.1:8765` in your browser. **Keep the terminal window open** while you use it.
+PatchPipe opens `http://127.0.0.1:8765` in your browser. **Keep the terminal window open** while you use it.
 
 > If `patchpipe` is not recognized, use `python -m patchpipe.cli` instead — the `patchpipe` script may not be on your PATH.
 
@@ -51,7 +51,7 @@ pip install -e ".[midi]"
 
 ## Configuration
 
-Settings are saved to `.env` in the directory where you launch Patchpipe. The UI never sends your API key back to the browser after it is saved.
+Settings are saved to `.env` in the directory where you launch PatchPipe. The UI never sends your API key back to the browser after it is saved.
 
 Shared keys:
 
