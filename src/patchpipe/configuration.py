@@ -1,4 +1,4 @@
-"""Shared Patchpipe configuration helpers."""
+"""Shared PatchPipe configuration helpers."""
 
 from __future__ import annotations
 

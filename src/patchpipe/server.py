@@ -1,4 +1,4 @@
-"""Unified local browser server for Patchpipe."""
+"""Unified local browser server for PatchPipe."""
 
 from __future__ import annotations
 
@@ -54,7 +54,7 @@ def _content_type(path: Path) -> str:
 
 def make_handler(server: PatchpipeServer) -> type[BaseHTTPRequestHandler]:
     class PatchpipeRequestHandler(BaseHTTPRequestHandler):
-        server_version = "Patchpipe/0.1"
+        server_version = "PatchPipe/0.1"
 
         def _send_bytes(self, status: HTTPStatus, body: bytes, content_type: str) -> None:
             self.send_response(status)
@@ -150,7 +150,7 @@ def serve(*, host: str = "127.0.0.1", port: int = 8765, open_browser: bool = Tru
     if not 1 <= port <= 65535:
         raise ValueError("port must be between 1 and 65535")
     if not (HUB_DIR / "hub.html").is_file():
-        raise FileNotFoundError(f"Patchpipe UI assets missing at {HUB_DIR}")
+        raise FileNotFoundError(f"PatchPipe UI assets missing at {HUB_DIR}")
     local_only = host in ("127.0.0.1", "localhost", "::1")
     display_host = "127.0.0.1" if host == "0.0.0.0" else host
     url = f"http://{display_host}:{port}"
@@ -159,13 +159,13 @@ def serve(*, host: str = "127.0.0.1", port: int = 8765, open_browser: bool = Tru
     except OSError as error:
         if getattr(error, "winerror", None) == 10048 or error.errno in {48, 98, 10048}:
             raise SystemExit(
-                f"Port {port} is already in use. Close the other Patchpipe window or run:\n"
+                f"Port {port} is already in use. Close the other PatchPipe window or run:\n"
                 f"  python -m patchpipe.cli --port {port + 1}"
             ) from error
         raise
-    print(f"Patchpipe running at {url}")
+    print(f"PatchPipe running at {url}")
     if local_only:
-        print("Leave this window open while using Patchpipe.")
+        print("Leave this window open while using PatchPipe.")
     else:
         print(f"Listening on all interfaces ({host}:{port})")
         lan_ips = _lan_addresses()

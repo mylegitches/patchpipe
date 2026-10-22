@@ -1,4 +1,4 @@
-"""Patchpipe command-line interface."""
+"""PatchPipe command-line interface."""
 
 from __future__ import annotations
 
